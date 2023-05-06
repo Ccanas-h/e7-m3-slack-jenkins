@@ -5,7 +5,7 @@ pipeline {
                 steps {
                     script {
                         echo 'Inicializando pipeline'
-                        slackSend(message: "Inicializando pipeline :smile: ${env.JOB_NAME} ", color: 'good')
+                        slackSend(message: "Inicializando pipeline :SMILE: ${env.JOB_NAME} ", color: 'good')
                     }
                 }
             }
